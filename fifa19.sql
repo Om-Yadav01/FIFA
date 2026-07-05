@@ -1,12 +1,4 @@
-/*
-  FIFA 19 Players Descriptive Analysis
-  SQL dialect: Microsoft SQL Server
 
-  Before running:
-  1. Create or use the fifa19 database.
-  2. Import FIFA19_Players_Datasets.csv as dbo.tbl_players.
-  3. Keep the CSV header row as column names during import.
-*/
 
 IF DB_ID('fifa19') IS NULL
 BEGIN
